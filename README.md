@@ -1,30 +1,7 @@
-# echartsmap
-
-> A Vue.js project
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+#前言
+>最近因为项目需要，需要写一个echarts的map组件。但是由于echarts的map因为政策问题已经下架很久了，网上只有省的地图demo市的demo不仅没有demo而且也没有json，记载国内的市级的json都是收费的所以挺让人愤慨的，于是自己动手写了一个省和市的demo，市的json数字市城市的行政编码。附带一份市的json数据需要者自取。
+##项目启动
+>npm install
+>npm run dev
+###因为中国一直在高速发展所以很多地图的地图是没有的所以附带一个github的生成json的项目链接
+>https://github.com/Lambert6/GetMapJson
